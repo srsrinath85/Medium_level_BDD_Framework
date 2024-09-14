@@ -10,7 +10,7 @@ public class register extends BasePage {
     private final By mobilenumber = By.name("mobile");
     private final By dateofbirth = By.name("dob");
     private final By button = By.xpath("//input[@type='submit']");
-    private final By link = By.xpath("//a[@href='home.html']");
+    //private final By link = By.xpath("//a[@href='home.html']");
 
     public register(WebDriver driver) {
         super(driver);
