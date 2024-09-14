@@ -8,3 +8,8 @@
 [INFO ] 2024-09-14 12:18:24.556 Hooks:62 - Scenario passed: To Verify if the user is able to place order using e-commerce website
 [INFO ] 2024-09-14 12:18:24.557 Hooks:66 - Stopping video recording.
 [INFO ] 2024-09-14 12:18:24.699 Hooks:68 - Closing browser.
+[INFO ] 2024-09-14 12:52:02.058 Hooks:34 - Starting Scenario: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-14 12:52:05.145 Hooks:45 - Setup completed for scenario: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-14 12:52:27.928 Hooks:60 - Scenario passed: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-14 12:52:27.929 Hooks:64 - Stopping video recording.
+[INFO ] 2024-09-14 12:52:28.090 Hooks:66 - Closing browser.

@@ -6,7 +6,6 @@ import com.common.utilities.VideoManger;
 import com.waf.context.TestContext;
 import com.waf.factory.DriverFactory;
 import com.waf.pages.e_commerce.place_orderpage;
-import com.waf.pages.register;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
@@ -41,7 +40,6 @@ public class Hooks {
             driver = DriverFactory.initialization(context.cloader.getProperty("browser"));
             context.driver = driver;
             context.scenario = scenario;
-            context.register = new register(context.driver);
             // context.dbexecutor = new dbexecutor(); // Uncomment if needed
             context.place_orderpage = new place_orderpage(context.driver);
             logger.info("Setup completed for scenario: " + scenario.getName());
