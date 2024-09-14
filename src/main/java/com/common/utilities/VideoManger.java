@@ -1,14 +1,12 @@
 package com.common.utilities;
 
 import org.apache.commons.io.FileUtils;
-import org.monte.screenrecorder.ScreenRecorder;
 
 import java.awt.*;
 import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import java.util.UUID;
 
 public class VideoManger {
     private static CustomScreenRecorder videoRecorder;

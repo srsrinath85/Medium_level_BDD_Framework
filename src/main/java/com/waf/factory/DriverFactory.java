@@ -9,7 +9,7 @@ import java.io.IOException;
 
 public class DriverFactory {
 
-    public static WebDriver initialization(String browserType) throws IOException {
+    public static WebDriver initialization(String browserType){
         WebDriver driver = null;
         if (browserType.equalsIgnoreCase("EDGE")) {
             WebDriverManager.edgedriver().setup();

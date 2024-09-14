@@ -2,7 +2,6 @@ package com.waf.pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class register extends BasePage {
 
@@ -38,8 +37,8 @@ public class register extends BasePage {
         clickOnElement(button);
     }
 
-    public void clicklink() {
-        clickOnElement(link);
-    }
+//    public void clicklink() {
+//        clickOnElement(link);
+//    }
 
 }

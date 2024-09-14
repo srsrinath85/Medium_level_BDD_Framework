@@ -1,8 +1,7 @@
 package com.waf.dbhelper;
 
 import com.common.utilities.ConfigLoader;
-import com.jcraft.jsch.JSch;
-import com.jcraft.jsch.Session;
+
 
 import java.io.IOException;
 import java.sql.Connection;
