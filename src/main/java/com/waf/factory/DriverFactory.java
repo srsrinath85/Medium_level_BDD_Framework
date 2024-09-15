@@ -15,45 +15,44 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.time.Duration;
 
-
 public class DriverFactory {
 
-private static WebDriver driver;
+    private static WebDriver driver;
 
     public static WebDriver initialization() throws IOException {
-        ConfigLoader configLoader=new ConfigLoader();
-        String runmode=configLoader.getProperty("runMode");
+        ConfigLoader configLoader = new ConfigLoader();
+        String runmode = configLoader.getProperty("runMode");
         System.out.println(runmode);
-        if(runmode.equalsIgnoreCase("local")){
+        if (runmode.equalsIgnoreCase("local")) {
             initLocalWebDriver();
-        }else if(runmode.equalsIgnoreCase("remote")){
+        } else if (runmode.equalsIgnoreCase("remote")) {
             initRemoteWebDriver();
-        }
-        else{
+        } else {
             System.out.println("the browser is not opening");
         }
-    return driver;
+        return driver;
     }
-    public static WebDriver initLocalWebDriver() throws IOException {
-        ConfigLoader configLoader=new ConfigLoader();
-        String browserType=configLoader.getProperty("Browser");
 
-        if(browserType.equalsIgnoreCase("firefox")){
+    public static WebDriver initLocalWebDriver() throws IOException {
+        ConfigLoader configLoader = new ConfigLoader();
+        String browserType = configLoader.getProperty("Browser");
+
+        if (browserType.equalsIgnoreCase("firefox")) {
             WebDriverManager.firefoxdriver().setup();
-            driver=new FirefoxDriver();
-        }else if(browserType.equalsIgnoreCase("edge")){
+            driver = new FirefoxDriver();
+        } else if (browserType.equalsIgnoreCase("edge")) {
             WebDriverManager.edgedriver().setup();
-            driver=new EdgeDriver();
-        }
-        else{
+            driver = new EdgeDriver();
+        } else {
             System.out.println("the initlocal webdriver is not opening");
         }
         driver.manage().window().maximize();
         driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(30));
         return driver;
     }
+
     public static WebDriver initRemoteWebDriver() throws IOException {
-        ConfigLoader configLoader=new ConfigLoader();
+        ConfigLoader configLoader = new ConfigLoader();
         String remoteURL = configLoader.getProperty("remoteURL");
         // Initialize your remote WebDriver here
         System.out.println("Initializing remote WebDriver");
@@ -69,28 +68,7 @@ private static WebDriver driver;
             e.printStackTrace();
         }
 
-
         return driver;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }

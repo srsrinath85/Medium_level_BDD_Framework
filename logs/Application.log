@@ -1384,3 +1384,9 @@ Capabilities {browserName: firefox}
 [INFO ] 2024-09-15 16:04:40.746 Hooks:66 - Scenario passed: To Verify if the user is able to place order using e-commerce website
 [INFO ] 2024-09-15 16:04:40.747 Hooks:70 - Stopping video recording.
 [INFO ] 2024-09-15 16:04:40.833 Hooks:72 - Closing browser.
+[INFO ] 2024-09-15 18:19:27.837 Hooks:34 - Starting Scenario: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-15 18:19:32.296 Hooks:48 - Running tests on: null environment
+[INFO ] 2024-09-15 18:19:32.298 Hooks:51 - Setup completed for scenario: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-15 18:19:39.657 Hooks:66 - Scenario passed: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-15 18:19:39.657 Hooks:70 - Stopping video recording.
+[INFO ] 2024-09-15 18:19:39.729 Hooks:72 - Closing browser.

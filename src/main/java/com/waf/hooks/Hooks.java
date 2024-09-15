@@ -37,7 +37,7 @@ public class Hooks {
             context.cloader = new ConfigLoader();
             context.pfloader = new PropertyFileLoader();
             String environment = context.cloader.getProperty("environment");
-            //String runMode = context.cloader.getProperty("runMode");
+            // String runMode = context.cloader.getProperty("runMode");
             VideoManger.startVideoRecording();
             driver = DriverFactory.initialization();
             context.driver = driver;
