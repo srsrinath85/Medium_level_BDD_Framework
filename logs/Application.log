@@ -13,3 +13,1374 @@
 [INFO ] 2024-09-14 12:52:27.928 Hooks:60 - Scenario passed: To Verify if the user is able to place order using e-commerce website
 [INFO ] 2024-09-14 12:52:27.929 Hooks:64 - Stopping video recording.
 [INFO ] 2024-09-14 12:52:28.090 Hooks:66 - Closing browser.
+[INFO ] 2024-09-14 14:53:33.450 Hooks:34 - Starting Scenario: To Verify if the user is able to place order using e-commerce website
+[ERROR] 2024-09-14 14:53:33.775 Hooks:47 - Setup failed for scenario: To Verify if the user is able to place order using e-commerce website
+java.net.MalformedURLException: no protocol: 
+	at java.net.URL.<init>(URL.java:772) ~[?:?]
+	at java.net.URL.<init>(URL.java:654) ~[?:?]
+	at java.net.URL.<init>(URL.java:590) ~[?:?]
+	at com.waf.factory.DriverFactory.setupRemoteDriver(DriverFactory.java:90) ~[classes/:?]
+	at com.waf.factory.DriverFactory.initialization(DriverFactory.java:48) ~[classes/:?]
+	at com.waf.hooks.Hooks.setUp(Hooks.java:40) ~[classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:86) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:57) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:89) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132) ~[cucumber-testng-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$3(CucumberExecutionContext.java:110) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:110) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129) ~[cucumber-testng-7.0.0.jar:7.0.0]
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35) ~[cucumber-testng-7.0.0.jar:7.0.0]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15) ~[testng-7.4.0.jar:7.4.0]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1570) [?:?]
+[ERROR] 2024-09-14 14:53:33.930 Hooks:54 - Scenario failed: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-14 14:57:25.875 Hooks:34 - Starting Scenario: To Verify if the user is able to place order using e-commerce website
+[ERROR] 2024-09-14 14:57:26.086 Hooks:49 - Setup failed for scenario: To Verify if the user is able to place order using e-commerce website
+java.net.MalformedURLException: no protocol: 
+	at java.net.URL.<init>(URL.java:772) ~[?:?]
+	at java.net.URL.<init>(URL.java:654) ~[?:?]
+	at java.net.URL.<init>(URL.java:590) ~[?:?]
+	at com.waf.factory.DriverFactory.setupRemoteDriver(DriverFactory.java:90) ~[classes/:?]
+	at com.waf.factory.DriverFactory.initialization(DriverFactory.java:48) ~[classes/:?]
+	at com.waf.hooks.Hooks.setUp(Hooks.java:41) ~[classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:86) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:57) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:89) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132) ~[cucumber-testng-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$3(CucumberExecutionContext.java:110) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:110) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129) ~[cucumber-testng-7.0.0.jar:7.0.0]
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35) ~[cucumber-testng-7.0.0.jar:7.0.0]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15) ~[testng-7.4.0.jar:7.4.0]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1570) [?:?]
+[ERROR] 2024-09-14 14:57:26.189 Hooks:56 - Scenario failed: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-14 15:04:08.807 Hooks:34 - Starting Scenario: To Verify if the user is able to place order using e-commerce website
+[ERROR] 2024-09-14 15:04:09.046 Hooks:51 - Setup failed for scenario: To Verify if the user is able to place order using e-commerce website
+java.net.MalformedURLException: no protocol: 
+	at java.net.URL.<init>(URL.java:772) ~[?:?]
+	at java.net.URL.<init>(URL.java:654) ~[?:?]
+	at java.net.URL.<init>(URL.java:590) ~[?:?]
+	at com.waf.factory.DriverFactory.setupRemoteDriver(DriverFactory.java:90) ~[classes/:?]
+	at com.waf.factory.DriverFactory.initialization(DriverFactory.java:48) ~[classes/:?]
+	at com.waf.hooks.Hooks.setUp(Hooks.java:41) ~[classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:86) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:57) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:89) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132) ~[cucumber-testng-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$3(CucumberExecutionContext.java:110) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:110) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129) ~[cucumber-testng-7.0.0.jar:7.0.0]
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35) ~[cucumber-testng-7.0.0.jar:7.0.0]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15) ~[testng-7.4.0.jar:7.4.0]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1570) [?:?]
+[ERROR] 2024-09-14 15:04:09.133 Hooks:58 - Scenario failed: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-14 15:12:51.886 Hooks:34 - Starting Scenario: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-14 15:13:00.488 Hooks:47 - Running tests on: remote environment
+[INFO ] 2024-09-14 15:13:00.490 Hooks:49 - Setup completed for scenario: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-14 15:13:05.721 Hooks:64 - Scenario passed: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-14 15:13:05.721 Hooks:68 - Stopping video recording.
+[INFO ] 2024-09-14 15:13:05.916 Hooks:70 - Closing browser.
+[INFO ] 2024-09-14 16:22:43.671 Hooks:34 - Starting Scenario: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-14 16:22:50.852 Hooks:47 - Running tests on: local environment
+[INFO ] 2024-09-14 16:22:50.853 Hooks:49 - Setup completed for scenario: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-14 16:22:55.974 Hooks:64 - Scenario passed: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-14 16:22:55.975 Hooks:68 - Stopping video recording.
+[INFO ] 2024-09-14 16:22:56.061 Hooks:70 - Closing browser.
+[INFO ] 2024-09-14 16:24:36.745 Hooks:34 - Starting Scenario: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-14 16:24:43.508 Hooks:47 - Running tests on: remote environment
+[INFO ] 2024-09-14 16:24:43.508 Hooks:49 - Setup completed for scenario: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-14 16:25:00.563 Hooks:64 - Scenario passed: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-14 16:25:00.563 Hooks:68 - Stopping video recording.
+[INFO ] 2024-09-14 16:25:00.687 Hooks:70 - Closing browser.
+[INFO ] 2024-09-14 16:27:31.917 Hooks:34 - Starting Scenario: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-14 16:27:39.500 Hooks:47 - Running tests on: remote environment
+[INFO ] 2024-09-14 16:27:39.501 Hooks:49 - Setup completed for scenario: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-14 16:27:43.274 Hooks:64 - Scenario passed: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-14 16:27:43.275 Hooks:68 - Stopping video recording.
+[INFO ] 2024-09-14 16:27:43.380 Hooks:70 - Closing browser.
+[INFO ] 2024-09-14 16:28:30.495 Hooks:34 - Starting Scenario: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-14 16:28:38.640 Hooks:47 - Running tests on: remote environment
+[INFO ] 2024-09-14 16:28:38.640 Hooks:49 - Setup completed for scenario: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-14 16:28:43.504 Hooks:64 - Scenario passed: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-14 16:28:43.504 Hooks:68 - Stopping video recording.
+[INFO ] 2024-09-14 16:28:43.682 Hooks:70 - Closing browser.
+[INFO ] 2024-09-14 16:33:47.887 Hooks:34 - Starting Scenario: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-14 16:33:54.821 Hooks:47 - Running tests on: remote environment
+[INFO ] 2024-09-14 16:33:54.822 Hooks:49 - Setup completed for scenario: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-14 16:33:59.465 Hooks:64 - Scenario passed: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-14 16:33:59.466 Hooks:68 - Stopping video recording.
+[INFO ] 2024-09-14 16:33:59.614 Hooks:70 - Closing browser.
+[INFO ] 2024-09-14 16:35:37.507 Hooks:34 - Starting Scenario: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-14 16:35:44.554 Hooks:47 - Running tests on: remote environment
+[INFO ] 2024-09-14 16:35:44.555 Hooks:49 - Setup completed for scenario: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-14 16:35:48.996 Hooks:64 - Scenario passed: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-14 16:35:48.996 Hooks:68 - Stopping video recording.
+[INFO ] 2024-09-14 16:35:49.140 Hooks:70 - Closing browser.
+[INFO ] 2024-09-14 16:37:31.842 Hooks:34 - Starting Scenario: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-14 16:37:38.863 Hooks:47 - Running tests on: remote environment
+[INFO ] 2024-09-14 16:37:38.864 Hooks:50 - Setup completed for scenario: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-14 16:37:42.499 Hooks:65 - Scenario passed: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-14 16:37:42.500 Hooks:69 - Stopping video recording.
+[INFO ] 2024-09-14 16:37:42.616 Hooks:71 - Closing browser.
+[INFO ] 2024-09-14 16:42:47.427 Hooks:34 - Starting Scenario: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-14 16:42:54.053 Hooks:47 - Running tests on: remote environment
+[INFO ] 2024-09-14 16:42:54.053 Hooks:50 - Setup completed for scenario: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-14 16:42:57.381 Hooks:65 - Scenario passed: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-14 16:42:57.382 Hooks:69 - Stopping video recording.
+[INFO ] 2024-09-14 16:42:57.541 Hooks:71 - Closing browser.
+[INFO ] 2024-09-14 17:05:02.844 Hooks:34 - Starting Scenario: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-14 17:05:08.456 Hooks:47 - Running tests on: remote environment
+[INFO ] 2024-09-14 17:05:08.456 Hooks:50 - Setup completed for scenario: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-14 17:05:14.417 Hooks:65 - Scenario passed: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-14 17:05:14.417 Hooks:69 - Stopping video recording.
+[INFO ] 2024-09-14 17:05:14.496 Hooks:71 - Closing browser.
+[INFO ] 2024-09-14 18:44:31.159 Hooks:34 - Starting Scenario: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-14 18:44:36.878 Hooks:47 - Running tests on: remote environment
+[INFO ] 2024-09-14 18:44:36.878 Hooks:50 - Setup completed for scenario: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-14 18:44:40.760 Hooks:65 - Scenario passed: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-14 18:44:40.760 Hooks:69 - Stopping video recording.
+[INFO ] 2024-09-14 18:44:40.833 Hooks:71 - Closing browser.
+[INFO ] 2024-09-14 18:50:39.289 Hooks:34 - Starting Scenario: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-14 18:50:45.045 Hooks:47 - Running tests on: remote environment
+[INFO ] 2024-09-14 18:50:45.045 Hooks:50 - Setup completed for scenario: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-14 18:50:48.924 Hooks:65 - Scenario passed: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-14 18:50:48.925 Hooks:69 - Stopping video recording.
+[INFO ] 2024-09-14 18:50:49.028 Hooks:71 - Closing browser.
+[INFO ] 2024-09-14 18:51:23.877 Hooks:34 - Starting Scenario: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-14 18:51:28.352 Hooks:47 - Running tests on: remote environment
+[INFO ] 2024-09-14 18:51:28.353 Hooks:50 - Setup completed for scenario: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-14 18:51:31.703 Hooks:65 - Scenario passed: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-14 18:51:31.704 Hooks:69 - Stopping video recording.
+[INFO ] 2024-09-14 18:51:31.802 Hooks:71 - Closing browser.
+[INFO ] 2024-09-14 18:52:46.041 Hooks:34 - Starting Scenario: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-14 18:52:50.594 Hooks:47 - Running tests on: remote environment
+[INFO ] 2024-09-14 18:52:50.595 Hooks:50 - Setup completed for scenario: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-14 18:52:54.543 Hooks:65 - Scenario passed: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-14 18:52:54.543 Hooks:69 - Stopping video recording.
+[INFO ] 2024-09-14 18:52:54.681 Hooks:71 - Closing browser.
+[INFO ] 2024-09-14 18:53:46.835 Hooks:34 - Starting Scenario: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-14 18:53:51.619 Hooks:47 - Running tests on: remote environment
+[INFO ] 2024-09-14 18:53:51.619 Hooks:50 - Setup completed for scenario: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-14 18:53:54.647 Hooks:65 - Scenario passed: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-14 18:53:54.648 Hooks:69 - Stopping video recording.
+[INFO ] 2024-09-14 18:53:54.727 Hooks:71 - Closing browser.
+[INFO ] 2024-09-14 18:55:17.287 Hooks:34 - Starting Scenario: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-14 18:55:21.816 Hooks:47 - Running tests on: remote environment
+[INFO ] 2024-09-14 18:55:21.816 Hooks:50 - Setup completed for scenario: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-14 18:55:26.587 Hooks:65 - Scenario passed: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-14 18:55:26.587 Hooks:69 - Stopping video recording.
+[INFO ] 2024-09-14 18:55:26.675 Hooks:71 - Closing browser.
+[INFO ] 2024-09-14 19:04:18.910 Hooks:34 - Starting Scenario: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-14 19:04:23.754 Hooks:47 - Running tests on: remote environment
+[INFO ] 2024-09-14 19:04:23.754 Hooks:50 - Setup completed for scenario: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-14 19:04:56.385 Hooks:65 - Scenario passed: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-14 19:04:56.385 Hooks:69 - Stopping video recording.
+[INFO ] 2024-09-14 19:04:56.510 Hooks:71 - Closing browser.
+[INFO ] 2024-09-14 19:16:20.164 Hooks:34 - Starting Scenario: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-14 19:16:23.749 Hooks:47 - Running tests on: remote environment
+[INFO ] 2024-09-14 19:16:23.749 Hooks:50 - Setup completed for scenario: To Verify if the user is able to place order using e-commerce website
+[ERROR] 2024-09-14 19:16:57.322 Hooks:59 - Scenario failed: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-14 19:25:53.078 Hooks:34 - Starting Scenario: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-14 19:25:57.840 Hooks:47 - Running tests on: remote environment
+[INFO ] 2024-09-14 19:25:57.840 Hooks:50 - Setup completed for scenario: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-14 19:26:06.743 Hooks:65 - Scenario passed: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-14 19:26:06.743 Hooks:69 - Stopping video recording.
+[INFO ] 2024-09-14 19:26:06.859 Hooks:71 - Closing browser.
+[INFO ] 2024-09-14 19:27:41.478 Hooks:34 - Starting Scenario: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-14 19:27:41.625 Hooks:47 - Running tests on: null environment
+[INFO ] 2024-09-14 19:27:41.625 Hooks:50 - Setup completed for scenario: To Verify if the user is able to place order using e-commerce website
+[ERROR] 2024-09-14 19:27:41.666 Hooks:59 - Scenario failed: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-14 19:28:36.931 Hooks:34 - Starting Scenario: To Verify if the user is able to place order using e-commerce website
+[ERROR] 2024-09-14 19:28:37.059 Hooks:52 - Setup failed for scenario: To Verify if the user is able to place order using e-commerce website
+java.lang.IllegalArgumentException: Unsupported browser: FIREFOX
+	at com.waf.factory.DriverFactory.initLocalWebDriver(DriverFactory.java:66) ~[classes/:?]
+	at com.waf.factory.DriverFactory.initialization(DriverFactory.java:48) ~[classes/:?]
+	at com.waf.hooks.Hooks.setUp(Hooks.java:41) ~[classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:86) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:57) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:89) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132) ~[cucumber-testng-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$3(CucumberExecutionContext.java:110) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:110) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129) ~[cucumber-testng-7.0.0.jar:7.0.0]
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35) ~[cucumber-testng-7.0.0.jar:7.0.0]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15) ~[testng-7.4.0.jar:7.4.0]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1570) [?:?]
+[ERROR] 2024-09-14 19:28:37.106 Hooks:59 - Scenario failed: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-14 19:36:42.841 Hooks:34 - Starting Scenario: To Verify if the user is able to place order using e-commerce website
+[ERROR] 2024-09-14 19:36:42.963 Hooks:52 - Setup failed for scenario: To Verify if the user is able to place order using e-commerce website
+java.lang.IllegalArgumentException: Unsupported browser: FIREFOX
+	at com.waf.factory.DriverFactory.initLocalWebDriver(DriverFactory.java:66) ~[classes/:?]
+	at com.waf.factory.DriverFactory.initialization(DriverFactory.java:48) ~[classes/:?]
+	at com.waf.hooks.Hooks.setUp(Hooks.java:41) ~[classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:86) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:57) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:89) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132) ~[cucumber-testng-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$3(CucumberExecutionContext.java:110) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:110) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129) ~[cucumber-testng-7.0.0.jar:7.0.0]
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35) ~[cucumber-testng-7.0.0.jar:7.0.0]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15) ~[testng-7.4.0.jar:7.4.0]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1570) [?:?]
+[ERROR] 2024-09-14 19:36:43.014 Hooks:59 - Scenario failed: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-14 19:37:52.308 Hooks:34 - Starting Scenario: To Verify if the user is able to place order using e-commerce website
+[ERROR] 2024-09-14 19:37:52.413 Hooks:52 - Setup failed for scenario: To Verify if the user is able to place order using e-commerce website
+java.lang.IllegalArgumentException: Unsupported browser: FIREFOX
+	at com.waf.factory.DriverFactory.initLocalWebDriver(DriverFactory.java:66) ~[classes/:?]
+	at com.waf.factory.DriverFactory.initialization(DriverFactory.java:48) ~[classes/:?]
+	at com.waf.hooks.Hooks.setUp(Hooks.java:41) ~[classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:86) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:57) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:89) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132) ~[cucumber-testng-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$3(CucumberExecutionContext.java:110) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:110) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129) ~[cucumber-testng-7.0.0.jar:7.0.0]
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35) ~[cucumber-testng-7.0.0.jar:7.0.0]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15) ~[testng-7.4.0.jar:7.4.0]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1570) [?:?]
+[ERROR] 2024-09-14 19:37:52.460 Hooks:59 - Scenario failed: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-14 19:38:27.877 Hooks:34 - Starting Scenario: To Verify if the user is able to place order using e-commerce website
+[ERROR] 2024-09-14 19:38:27.996 Hooks:52 - Setup failed for scenario: To Verify if the user is able to place order using e-commerce website
+java.lang.IllegalArgumentException: hi
+	at com.waf.factory.DriverFactory.initLocalWebDriver(DriverFactory.java:66) ~[classes/:?]
+	at com.waf.factory.DriverFactory.initialization(DriverFactory.java:48) ~[classes/:?]
+	at com.waf.hooks.Hooks.setUp(Hooks.java:41) ~[classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:86) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:57) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:89) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132) ~[cucumber-testng-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$3(CucumberExecutionContext.java:110) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:110) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129) ~[cucumber-testng-7.0.0.jar:7.0.0]
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35) ~[cucumber-testng-7.0.0.jar:7.0.0]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15) ~[testng-7.4.0.jar:7.4.0]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1570) [?:?]
+[ERROR] 2024-09-14 19:38:28.043 Hooks:59 - Scenario failed: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-14 19:42:21.840 Hooks:34 - Starting Scenario: To Verify if the user is able to place order using e-commerce website
+[ERROR] 2024-09-14 19:42:32.706 Hooks:52 - Setup failed for scenario: To Verify if the user is able to place order using e-commerce website
+org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'DESKTOP-LHMO7C5', ip: '192.168.0.126'
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:536) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:141) ~[selenium-remote-driver-4.22.0.jar:?]
+	at com.waf.factory.DriverFactory.initRemoteWebDriver(DriverFactory.java:92) ~[classes/:?]
+	at com.waf.factory.DriverFactory.initialization(DriverFactory.java:47) ~[classes/:?]
+	at com.waf.hooks.Hooks.setUp(Hooks.java:41) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:86) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:57) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:89) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132) ~[cucumber-testng-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$3(CucumberExecutionContext.java:110) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23) [cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:110) [cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129) [cucumber-testng-7.0.0.jar:7.0.0]
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35) [cucumber-testng-7.0.0.jar:7.0.0]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133) [testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598) [testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173) [testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77) [testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15) [testng-7.4.0.jar:7.4.0]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: org.openqa.selenium.TimeoutException: java.net.http.HttpConnectTimeoutException: HTTP connect timed out
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:389) ~[selenium-http-4.22.0.jar:?]
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42) ~[selenium-http-4.22.0.jar:?]
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55) ~[selenium-http-4.22.0.jar:?]
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:355) ~[selenium-http-4.22.0.jar:?]
+	at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518) ~[selenium-remote-driver-4.22.0.jar:?]
+	... 42 more
+Caused by: java.net.http.HttpConnectTimeoutException: HTTP connect timed out
+	at jdk.internal.net.http.MultiExchange.toTimeoutException(MultiExchange.java:508) ~[java.net.http:?]
+	at jdk.internal.net.http.MultiExchange.getExceptionalCF(MultiExchange.java:455) ~[java.net.http:?]
+	at jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$7(MultiExchange.java:382) ~[java.net.http:?]
+	at java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:930) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:907) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088) ~[?:?]
+	at jdk.internal.net.http.Http1Exchange.lambda$cancelImpl$9(Http1Exchange.java:482) ~[java.net.http:?]
+	... 3 more
+Caused by: java.net.ConnectException: HTTP connect timed out
+	at jdk.internal.net.http.MultiExchange.toTimeoutException(MultiExchange.java:509) ~[java.net.http:?]
+	at jdk.internal.net.http.MultiExchange.getExceptionalCF(MultiExchange.java:455) ~[java.net.http:?]
+	at jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$7(MultiExchange.java:382) ~[java.net.http:?]
+	at java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:930) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:907) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088) ~[?:?]
+	at jdk.internal.net.http.Http1Exchange.lambda$cancelImpl$9(Http1Exchange.java:482) ~[java.net.http:?]
+	... 3 more
+[ERROR] 2024-09-14 19:42:32.744 Hooks:59 - Scenario failed: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-14 19:45:02.108 Hooks:34 - Starting Scenario: To Verify if the user is able to place order using e-commerce website
+[ERROR] 2024-09-14 19:45:02.256 Hooks:52 - Setup failed for scenario: To Verify if the user is able to place order using e-commerce website
+java.lang.IllegalArgumentException: hi
+	at com.waf.factory.DriverFactory.initLocalWebDriver(DriverFactory.java:69) ~[classes/:?]
+	at com.waf.factory.DriverFactory.initialization(DriverFactory.java:51) ~[classes/:?]
+	at com.waf.hooks.Hooks.setUp(Hooks.java:41) ~[classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:86) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:57) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:89) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132) ~[cucumber-testng-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$3(CucumberExecutionContext.java:110) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:110) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129) ~[cucumber-testng-7.0.0.jar:7.0.0]
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35) ~[cucumber-testng-7.0.0.jar:7.0.0]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15) ~[testng-7.4.0.jar:7.4.0]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1570) [?:?]
+[ERROR] 2024-09-14 19:45:02.303 Hooks:59 - Scenario failed: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-14 19:51:25.698 Hooks:34 - Starting Scenario: To Verify if the user is able to place order using e-commerce website
+[ERROR] 2024-09-14 19:54:26.446 Hooks:52 - Setup failed for scenario: To Verify if the user is able to place order using e-commerce website
+org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'DESKTOP-LHMO7C5', ip: '192.168.0.126'
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:536) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:141) ~[selenium-remote-driver-4.22.0.jar:?]
+	at com.waf.factory.DriverFactory.initRemoteWebDriver(DriverFactory.java:92) ~[classes/:?]
+	at com.waf.factory.DriverFactory.initialization(DriverFactory.java:47) ~[classes/:?]
+	at com.waf.hooks.Hooks.setUp(Hooks.java:41) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:86) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:57) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:89) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132) ~[cucumber-testng-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$3(CucumberExecutionContext.java:110) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23) [cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:110) [cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129) [cucumber-testng-7.0.0.jar:7.0.0]
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35) [cucumber-testng-7.0.0.jar:7.0.0]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133) [testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598) [testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173) [testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77) [testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15) [testng-7.4.0.jar:7.4.0]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: org.openqa.selenium.TimeoutException: java.net.http.HttpTimeoutException: request timed out
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:389) ~[selenium-http-4.22.0.jar:?]
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42) ~[selenium-http-4.22.0.jar:?]
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55) ~[selenium-http-4.22.0.jar:?]
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:355) ~[selenium-http-4.22.0.jar:?]
+	at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518) ~[selenium-remote-driver-4.22.0.jar:?]
+	... 42 more
+Caused by: java.net.http.HttpTimeoutException: request timed out
+	at jdk.internal.net.http.ResponseTimerEvent.handle(ResponseTimerEvent.java:63) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientImpl.purgeTimeoutsAndReturnNextDeadline(HttpClientImpl.java:1248) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:877) ~[java.net.http:?]
+[ERROR] 2024-09-14 19:54:26.537 Hooks:59 - Scenario failed: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-14 19:55:42.555 Hooks:34 - Starting Scenario: To Verify if the user is able to place order using e-commerce website
+[ERROR] 2024-09-14 19:58:43.279 Hooks:52 - Setup failed for scenario: To Verify if the user is able to place order using e-commerce website
+org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'DESKTOP-LHMO7C5', ip: '192.168.0.126'
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:536) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:141) ~[selenium-remote-driver-4.22.0.jar:?]
+	at com.waf.factory.DriverFactory.initRemoteWebDriver(DriverFactory.java:92) ~[classes/:?]
+	at com.waf.factory.DriverFactory.initialization(DriverFactory.java:47) ~[classes/:?]
+	at com.waf.hooks.Hooks.setUp(Hooks.java:41) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:86) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:57) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:89) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132) ~[cucumber-testng-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$3(CucumberExecutionContext.java:110) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23) [cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:110) [cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129) [cucumber-testng-7.0.0.jar:7.0.0]
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35) [cucumber-testng-7.0.0.jar:7.0.0]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133) [testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598) [testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173) [testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77) [testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15) [testng-7.4.0.jar:7.4.0]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+Caused by: org.openqa.selenium.TimeoutException: java.net.http.HttpTimeoutException: request timed out
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:389) ~[selenium-http-4.22.0.jar:?]
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42) ~[selenium-http-4.22.0.jar:?]
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55) ~[selenium-http-4.22.0.jar:?]
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:355) ~[selenium-http-4.22.0.jar:?]
+	at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518) ~[selenium-remote-driver-4.22.0.jar:?]
+	... 42 more
+Caused by: java.net.http.HttpTimeoutException: request timed out
+	at jdk.internal.net.http.ResponseTimerEvent.handle(ResponseTimerEvent.java:63) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientImpl.purgeTimeoutsAndReturnNextDeadline(HttpClientImpl.java:1248) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:877) ~[java.net.http:?]
+[ERROR] 2024-09-14 19:58:43.342 Hooks:59 - Scenario failed: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-14 20:03:32.123 Hooks:34 - Starting Scenario: To Verify if the user is able to place order using e-commerce website
+[ERROR] 2024-09-14 20:03:32.310 Hooks:52 - Setup failed for scenario: To Verify if the user is able to place order using e-commerce website
+java.lang.IllegalArgumentException: hi
+	at com.waf.factory.DriverFactory.initLocalWebDriver(DriverFactory.java:69) ~[classes/:?]
+	at com.waf.factory.DriverFactory.initialization(DriverFactory.java:51) ~[classes/:?]
+	at com.waf.hooks.Hooks.setUp(Hooks.java:41) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:86) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:57) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:89) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132) ~[cucumber-testng-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$3(CucumberExecutionContext.java:110) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23) [cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:110) [cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129) [cucumber-testng-7.0.0.jar:7.0.0]
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35) [cucumber-testng-7.0.0.jar:7.0.0]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133) [testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598) [testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173) [testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77) [testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15) [testng-7.4.0.jar:7.4.0]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+[ERROR] 2024-09-14 20:03:32.383 Hooks:59 - Scenario failed: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-14 20:24:05.226 Hooks:34 - Starting Scenario: To Verify if the user is able to place order using e-commerce website
+[ERROR] 2024-09-14 20:27:06.296 Hooks:53 - Setup failed for scenario: To Verify if the user is able to place order using e-commerce website
+org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'DESKTOP-LHMO7C5', ip: '192.168.0.126'
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:536) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:141) ~[selenium-remote-driver-4.22.0.jar:?]
+	at com.waf.factory.DriverFactory.initialization(DriverFactory.java:111) ~[classes/:?]
+	at com.waf.hooks.Hooks.setUp(Hooks.java:42) ~[classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:86) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:57) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:89) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132) ~[cucumber-testng-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$3(CucumberExecutionContext.java:110) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:110) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129) ~[cucumber-testng-7.0.0.jar:7.0.0]
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35) ~[cucumber-testng-7.0.0.jar:7.0.0]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15) ~[testng-7.4.0.jar:7.4.0]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1570) [?:?]
+Caused by: org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:399) ~[selenium-http-4.22.0.jar:?]
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42) ~[selenium-http-4.22.0.jar:?]
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55) ~[selenium-http-4.22.0.jar:?]
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:355) ~[selenium-http-4.22.0.jar:?]
+	at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518) ~[selenium-remote-driver-4.22.0.jar:?]
+	... 37 more
+Caused by: java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960) ~[?:?]
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095) ~[?:?]
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:382) ~[selenium-http-4.22.0.jar:?]
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42) ~[selenium-http-4.22.0.jar:?]
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55) ~[selenium-http-4.22.0.jar:?]
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:355) ~[selenium-http-4.22.0.jar:?]
+	at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518) ~[selenium-remote-driver-4.22.0.jar:?]
+	... 37 more
+[ERROR] 2024-09-14 20:27:06.444 Hooks:60 - Scenario failed: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-14 20:27:40.644 Hooks:34 - Starting Scenario: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-14 20:27:47.009 Hooks:48 - Running tests on: null environment
+[INFO ] 2024-09-14 20:27:47.010 Hooks:51 - Setup completed for scenario: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-14 20:28:06.394 Hooks:66 - Scenario passed: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-14 20:28:06.397 Hooks:70 - Stopping video recording.
+[INFO ] 2024-09-14 20:28:06.479 Hooks:72 - Closing browser.
+[INFO ] 2024-09-14 20:33:20.059 Hooks:34 - Starting Scenario: To Verify if the user is able to place order using e-commerce website
+[ERROR] 2024-09-14 20:33:20.232 Hooks:53 - Setup failed for scenario: To Verify if the user is able to place order using e-commerce website
+java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because "browser" is null
+	at com.waf.factory.DriverFactory.initLocalWebDriver(DriverFactory.java:78) ~[classes/:?]
+	at com.waf.factory.DriverFactory.initialization(DriverFactory.java:119) ~[classes/:?]
+	at com.waf.hooks.Hooks.setUp(Hooks.java:42) ~[classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:86) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:57) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:89) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132) ~[cucumber-testng-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$3(CucumberExecutionContext.java:110) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:110) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129) ~[cucumber-testng-7.0.0.jar:7.0.0]
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35) ~[cucumber-testng-7.0.0.jar:7.0.0]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15) ~[testng-7.4.0.jar:7.4.0]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1570) [?:?]
+[ERROR] 2024-09-14 20:33:20.294 Hooks:60 - Scenario failed: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-14 20:53:30.744 Hooks:34 - Starting Scenario: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-14 20:53:37.261 Hooks:48 - Running tests on: null environment
+[INFO ] 2024-09-14 20:53:37.263 Hooks:51 - Setup completed for scenario: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-14 20:53:40.896 Hooks:66 - Scenario passed: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-14 20:53:40.897 Hooks:70 - Stopping video recording.
+[INFO ] 2024-09-14 20:53:40.976 Hooks:72 - Closing browser.
+[INFO ] 2024-09-14 21:08:52.512 Hooks:34 - Starting Scenario: To Verify if the user is able to place order using e-commerce website
+[ERROR] 2024-09-14 21:11:53.332 Hooks:53 - Setup failed for scenario: To Verify if the user is able to place order using e-commerce website
+org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'DESKTOP-LHMO7C5', ip: '192.168.0.126'
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:536) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:141) ~[selenium-remote-driver-4.22.0.jar:?]
+	at com.waf.factory.DriverFactory.initRemoteWebDriver(DriverFactory.java:125) ~[classes/:?]
+	at com.waf.factory.DriverFactory.initialization(DriverFactory.java:82) ~[classes/:?]
+	at com.waf.hooks.Hooks.setUp(Hooks.java:42) ~[classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:86) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:57) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:89) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132) ~[cucumber-testng-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$3(CucumberExecutionContext.java:110) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:110) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129) ~[cucumber-testng-7.0.0.jar:7.0.0]
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35) ~[cucumber-testng-7.0.0.jar:7.0.0]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15) ~[testng-7.4.0.jar:7.4.0]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1570) [?:?]
+Caused by: org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:399) ~[selenium-http-4.22.0.jar:?]
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42) ~[selenium-http-4.22.0.jar:?]
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55) ~[selenium-http-4.22.0.jar:?]
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:355) ~[selenium-http-4.22.0.jar:?]
+	at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518) ~[selenium-remote-driver-4.22.0.jar:?]
+	... 38 more
+Caused by: java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960) ~[?:?]
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095) ~[?:?]
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:382) ~[selenium-http-4.22.0.jar:?]
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42) ~[selenium-http-4.22.0.jar:?]
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55) ~[selenium-http-4.22.0.jar:?]
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:355) ~[selenium-http-4.22.0.jar:?]
+	at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518) ~[selenium-remote-driver-4.22.0.jar:?]
+	... 38 more
+[ERROR] 2024-09-14 21:11:53.398 Hooks:60 - Scenario failed: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-14 21:17:03.698 Hooks:34 - Starting Scenario: To Verify if the user is able to place order using e-commerce website
+[ERROR] 2024-09-14 21:20:04.520 Hooks:53 - Setup failed for scenario: To Verify if the user is able to place order using e-commerce website
+org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'DESKTOP-LHMO7C5', ip: '192.168.0.126'
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:536) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:141) ~[selenium-remote-driver-4.22.0.jar:?]
+	at com.waf.factory.DriverFactory.initRemoteWebDriver(DriverFactory.java:125) ~[classes/:?]
+	at com.waf.factory.DriverFactory.initialization(DriverFactory.java:82) ~[classes/:?]
+	at com.waf.hooks.Hooks.setUp(Hooks.java:42) ~[classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:86) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:57) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:89) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132) ~[cucumber-testng-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$3(CucumberExecutionContext.java:110) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:110) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129) ~[cucumber-testng-7.0.0.jar:7.0.0]
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35) ~[cucumber-testng-7.0.0.jar:7.0.0]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15) ~[testng-7.4.0.jar:7.4.0]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1570) [?:?]
+Caused by: org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:399) ~[selenium-http-4.22.0.jar:?]
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42) ~[selenium-http-4.22.0.jar:?]
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55) ~[selenium-http-4.22.0.jar:?]
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:355) ~[selenium-http-4.22.0.jar:?]
+	at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518) ~[selenium-remote-driver-4.22.0.jar:?]
+	... 38 more
+Caused by: java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960) ~[?:?]
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095) ~[?:?]
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:382) ~[selenium-http-4.22.0.jar:?]
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42) ~[selenium-http-4.22.0.jar:?]
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55) ~[selenium-http-4.22.0.jar:?]
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:355) ~[selenium-http-4.22.0.jar:?]
+	at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518) ~[selenium-remote-driver-4.22.0.jar:?]
+	... 38 more
+[ERROR] 2024-09-14 21:20:04.567 Hooks:60 - Scenario failed: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-15 11:44:30.313 Hooks:34 - Starting Scenario: To Verify if the user is able to place order using e-commerce website
+[ERROR] 2024-09-15 11:47:31.346 Hooks:53 - Setup failed for scenario: To Verify if the user is able to place order using e-commerce website
+org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'DESKTOP-LHMO7C5', ip: '192.168.0.126'
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:536) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:141) ~[selenium-remote-driver-4.22.0.jar:?]
+	at com.waf.factory.DriverFactory.initRemoteWebDriver(DriverFactory.java:125) ~[classes/:?]
+	at com.waf.factory.DriverFactory.initialization(DriverFactory.java:82) ~[classes/:?]
+	at com.waf.hooks.Hooks.setUp(Hooks.java:42) ~[classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:86) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:57) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:89) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132) ~[cucumber-testng-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$3(CucumberExecutionContext.java:110) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:110) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129) ~[cucumber-testng-7.0.0.jar:7.0.0]
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35) ~[cucumber-testng-7.0.0.jar:7.0.0]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15) ~[testng-7.4.0.jar:7.4.0]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1570) [?:?]
+Caused by: org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:399) ~[selenium-http-4.22.0.jar:?]
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42) ~[selenium-http-4.22.0.jar:?]
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55) ~[selenium-http-4.22.0.jar:?]
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:355) ~[selenium-http-4.22.0.jar:?]
+	at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518) ~[selenium-remote-driver-4.22.0.jar:?]
+	... 38 more
+Caused by: java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960) ~[?:?]
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095) ~[?:?]
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:382) ~[selenium-http-4.22.0.jar:?]
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42) ~[selenium-http-4.22.0.jar:?]
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55) ~[selenium-http-4.22.0.jar:?]
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:355) ~[selenium-http-4.22.0.jar:?]
+	at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518) ~[selenium-remote-driver-4.22.0.jar:?]
+	... 38 more
+[ERROR] 2024-09-15 11:47:31.430 Hooks:60 - Scenario failed: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-15 11:51:28.822 Hooks:34 - Starting Scenario: To Verify if the user is able to place order using e-commerce website
+[ERROR] 2024-09-15 11:54:29.833 Hooks:53 - Setup failed for scenario: To Verify if the user is able to place order using e-commerce website
+org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'DESKTOP-LHMO7C5', ip: '192.168.0.126'
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:536) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:141) ~[selenium-remote-driver-4.22.0.jar:?]
+	at com.waf.factory.DriverFactory.initRemoteWebDriver(DriverFactory.java:118) ~[classes/:?]
+	at com.waf.factory.DriverFactory.initialization(DriverFactory.java:82) ~[classes/:?]
+	at com.waf.hooks.Hooks.setUp(Hooks.java:42) ~[classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:86) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:57) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:89) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132) ~[cucumber-testng-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$3(CucumberExecutionContext.java:110) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:110) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129) ~[cucumber-testng-7.0.0.jar:7.0.0]
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35) ~[cucumber-testng-7.0.0.jar:7.0.0]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15) ~[testng-7.4.0.jar:7.4.0]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1570) [?:?]
+Caused by: org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:399) ~[selenium-http-4.22.0.jar:?]
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42) ~[selenium-http-4.22.0.jar:?]
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55) ~[selenium-http-4.22.0.jar:?]
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:355) ~[selenium-http-4.22.0.jar:?]
+	at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518) ~[selenium-remote-driver-4.22.0.jar:?]
+	... 38 more
+Caused by: java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960) ~[?:?]
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095) ~[?:?]
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:382) ~[selenium-http-4.22.0.jar:?]
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42) ~[selenium-http-4.22.0.jar:?]
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55) ~[selenium-http-4.22.0.jar:?]
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:355) ~[selenium-http-4.22.0.jar:?]
+	at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518) ~[selenium-remote-driver-4.22.0.jar:?]
+	... 38 more
+[ERROR] 2024-09-15 11:54:29.875 Hooks:60 - Scenario failed: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-15 12:10:43.378 Hooks:34 - Starting Scenario: To Verify if the user is able to place order using e-commerce website
+[ERROR] 2024-09-15 12:10:54.116 Hooks:53 - Setup failed for scenario: To Verify if the user is able to place order using e-commerce website
+org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'DESKTOP-LHMO7C5', ip: '172.19.16.1'
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:536) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:141) ~[selenium-remote-driver-4.22.0.jar:?]
+	at com.waf.factory.DriverFactory.initRemoteWebDriver(DriverFactory.java:118) ~[classes/:?]
+	at com.waf.factory.DriverFactory.initialization(DriverFactory.java:82) ~[classes/:?]
+	at com.waf.hooks.Hooks.setUp(Hooks.java:42) ~[classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:86) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:57) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:89) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132) ~[cucumber-testng-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$3(CucumberExecutionContext.java:110) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:110) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129) ~[cucumber-testng-7.0.0.jar:7.0.0]
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35) ~[cucumber-testng-7.0.0.jar:7.0.0]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15) ~[testng-7.4.0.jar:7.4.0]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1570) [?:?]
+Caused by: org.openqa.selenium.TimeoutException: java.net.http.HttpConnectTimeoutException: HTTP connect timed out
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:389) ~[selenium-http-4.22.0.jar:?]
+	at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42) ~[selenium-http-4.22.0.jar:?]
+	at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55) ~[selenium-http-4.22.0.jar:?]
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:355) ~[selenium-http-4.22.0.jar:?]
+	at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518) ~[selenium-remote-driver-4.22.0.jar:?]
+	... 38 more
+Caused by: java.net.http.HttpConnectTimeoutException: HTTP connect timed out
+	at jdk.internal.net.http.MultiExchange.toTimeoutException(MultiExchange.java:620) ~[java.net.http:?]
+	at jdk.internal.net.http.MultiExchange.getExceptionalCF(MultiExchange.java:565) ~[java.net.http:?]
+	at jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$7(MultiExchange.java:485) ~[java.net.http:?]
+	at java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2194) ~[?:?]
+	at jdk.internal.net.http.Http1Exchange.lambda$cancelImpl$9(Http1Exchange.java:592) ~[java.net.http:?]
+	... 3 more
+Caused by: java.net.ConnectException: HTTP connect timed out
+	at jdk.internal.net.http.MultiExchange.toTimeoutException(MultiExchange.java:621) ~[java.net.http:?]
+	at jdk.internal.net.http.MultiExchange.getExceptionalCF(MultiExchange.java:565) ~[java.net.http:?]
+	at jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$7(MultiExchange.java:485) ~[java.net.http:?]
+	at java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2194) ~[?:?]
+	at jdk.internal.net.http.Http1Exchange.lambda$cancelImpl$9(Http1Exchange.java:592) ~[java.net.http:?]
+	... 3 more
+[ERROR] 2024-09-15 12:10:54.166 Hooks:60 - Scenario failed: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-15 12:11:21.300 Hooks:34 - Starting Scenario: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-15 12:12:11.834 Hooks:34 - Starting Scenario: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-15 12:37:47.247 Hooks:34 - Starting Scenario: To Verify if the user is able to place order using e-commerce website
+[ERROR] 2024-09-15 12:40:02.732 Hooks:53 - Setup failed for scenario: To Verify if the user is able to place order using e-commerce website
+org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Could not start a new session. Could not start a new session. Error while creating session with the driver service. Stopping driver service: Could not start a new session. Response code 500. Message: Failed to read marionette port 
+Host info: host: '18d7facde8b7', ip: '172.18.0.3'
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.8.0-1015-aws', java.version: '17.0.12'
+Driver info: driver.version: unknown
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.8.0-1015-aws', java.version: '17.0.12'
+Driver info: driver.version: unknown
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.8.0-1015-aws', java.version: '17.0.12'
+Driver info: driver.version: unknown
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: firefox}]}]
+Capabilities {browserName: firefox}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:141) ~[selenium-remote-driver-4.22.0.jar:?]
+	at com.waf.factory.DriverFactory.initRemoteWebDriver(DriverFactory.java:118) ~[classes/:?]
+	at com.waf.factory.DriverFactory.initialization(DriverFactory.java:82) ~[classes/:?]
+	at com.waf.hooks.Hooks.setUp(Hooks.java:42) ~[classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:86) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:57) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:89) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132) ~[cucumber-testng-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$3(CucumberExecutionContext.java:110) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:110) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129) ~[cucumber-testng-7.0.0.jar:7.0.0]
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35) ~[cucumber-testng-7.0.0.jar:7.0.0]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15) ~[testng-7.4.0.jar:7.4.0]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1570) [?:?]
+[ERROR] 2024-09-15 12:40:02.783 Hooks:60 - Scenario failed: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-15 12:41:16.936 Hooks:34 - Starting Scenario: To Verify if the user is able to place order using e-commerce website
+[ERROR] 2024-09-15 12:43:29.972 Hooks:53 - Setup failed for scenario: To Verify if the user is able to place order using e-commerce website
+org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Could not start a new session. Could not start a new session. Error while creating session with the driver service. Stopping driver service: Could not start a new session. Response code 500. Message: Failed to read marionette port 
+Host info: host: '18d7facde8b7', ip: '172.18.0.3'
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.8.0-1015-aws', java.version: '17.0.12'
+Driver info: driver.version: unknown
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.8.0-1015-aws', java.version: '17.0.12'
+Driver info: driver.version: unknown
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.8.0-1015-aws', java.version: '17.0.12'
+Driver info: driver.version: unknown
+Build info: version: '4.22.0', revision: 'c5f3146703*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: firefox}]}]
+Capabilities {browserName: firefox}
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161) ~[selenium-remote-driver-4.22.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:141) ~[selenium-remote-driver-4.22.0.jar:?]
+	at com.waf.factory.DriverFactory.initRemoteWebDriver(DriverFactory.java:118) ~[classes/:?]
+	at com.waf.factory.DriverFactory.initialization(DriverFactory.java:82) ~[classes/:?]
+	at com.waf.hooks.Hooks.setUp(Hooks.java:42) ~[classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64) ~[cucumber-java-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:86) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:57) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:89) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132) ~[cucumber-testng-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$3(CucumberExecutionContext.java:110) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:110) ~[cucumber-core-7.0.0.jar:7.0.0]
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129) ~[cucumber-testng-7.0.0.jar:7.0.0]
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35) ~[cucumber-testng-7.0.0.jar:7.0.0]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:77) ~[testng-7.4.0.jar:7.4.0]
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:15) ~[testng-7.4.0.jar:7.4.0]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1570) [?:?]
+[ERROR] 2024-09-15 12:43:30.015 Hooks:60 - Scenario failed: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-15 15:52:49.839 Hooks:34 - Starting Scenario: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-15 15:55:28.283 Hooks:34 - Starting Scenario: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-15 15:56:55.872 Hooks:48 - Running tests on: null environment
+[INFO ] 2024-09-15 15:56:55.873 Hooks:51 - Setup completed for scenario: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-15 16:00:50.457 Hooks:34 - Starting Scenario: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-15 16:00:54.621 Hooks:48 - Running tests on: null environment
+[INFO ] 2024-09-15 16:00:54.623 Hooks:51 - Setup completed for scenario: To Verify if the user is able to place order using e-commerce website
+[ERROR] 2024-09-15 16:01:24.723 Hooks:60 - Scenario failed: To Verify if the user is able to place order using e-commerce website
+[ERROR] 2024-09-15 16:01:24.894 Hooks:64 - Screenshot taken for scenario: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-15 16:01:24.894 Hooks:70 - Stopping video recording.
+[INFO ] 2024-09-15 16:01:25.012 Hooks:72 - Closing browser.
+[INFO ] 2024-09-15 16:01:51.408 Hooks:34 - Starting Scenario: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-15 16:01:55.593 Hooks:48 - Running tests on: null environment
+[INFO ] 2024-09-15 16:01:55.594 Hooks:51 - Setup completed for scenario: To Verify if the user is able to place order using e-commerce website
+[ERROR] 2024-09-15 16:02:00.620 Hooks:60 - Scenario failed: To Verify if the user is able to place order using e-commerce website
+[ERROR] 2024-09-15 16:02:01.028 Hooks:64 - Screenshot taken for scenario: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-15 16:02:01.030 Hooks:70 - Stopping video recording.
+[INFO ] 2024-09-15 16:02:01.183 Hooks:72 - Closing browser.
+[INFO ] 2024-09-15 16:02:54.217 Hooks:34 - Starting Scenario: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-15 16:02:58.403 Hooks:48 - Running tests on: null environment
+[INFO ] 2024-09-15 16:02:58.403 Hooks:51 - Setup completed for scenario: To Verify if the user is able to place order using e-commerce website
+[ERROR] 2024-09-15 16:03:29.864 Hooks:60 - Scenario failed: To Verify if the user is able to place order using e-commerce website
+[ERROR] 2024-09-15 16:03:30.104 Hooks:64 - Screenshot taken for scenario: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-15 16:03:30.118 Hooks:70 - Stopping video recording.
+[INFO ] 2024-09-15 16:03:30.269 Hooks:72 - Closing browser.
+[INFO ] 2024-09-15 16:03:41.715 Hooks:34 - Starting Scenario: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-15 16:03:45.978 Hooks:48 - Running tests on: null environment
+[INFO ] 2024-09-15 16:03:45.979 Hooks:51 - Setup completed for scenario: To Verify if the user is able to place order using e-commerce website
+[ERROR] 2024-09-15 16:03:51.091 Hooks:60 - Scenario failed: To Verify if the user is able to place order using e-commerce website
+[ERROR] 2024-09-15 16:03:51.400 Hooks:64 - Screenshot taken for scenario: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-15 16:03:51.400 Hooks:70 - Stopping video recording.
+[INFO ] 2024-09-15 16:03:51.478 Hooks:72 - Closing browser.
+[INFO ] 2024-09-15 16:04:30.083 Hooks:34 - Starting Scenario: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-15 16:04:34.260 Hooks:48 - Running tests on: null environment
+[INFO ] 2024-09-15 16:04:34.261 Hooks:51 - Setup completed for scenario: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-15 16:04:40.746 Hooks:66 - Scenario passed: To Verify if the user is able to place order using e-commerce website
+[INFO ] 2024-09-15 16:04:40.747 Hooks:70 - Stopping video recording.
+[INFO ] 2024-09-15 16:04:40.833 Hooks:72 - Closing browser.

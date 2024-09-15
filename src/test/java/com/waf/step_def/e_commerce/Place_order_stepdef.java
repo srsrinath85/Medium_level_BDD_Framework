@@ -16,28 +16,24 @@ public class Place_order_stepdef {
     private final place_orderpage place_orderpage;
     private final Scenario scenario;
 
-
-
-    public Place_order_stepdef(TestContext context){
-        cloader=context.cloader;
-        place_orderpage=context.place_orderpage;
-        scenario= context.scenario;
+    public Place_order_stepdef(TestContext context) {
+        cloader = context.cloader;
+        place_orderpage = context.place_orderpage;
+        System.out.println("Place Order Page in StepDef: " + place_orderpage);
+        scenario = context.scenario;
     }
 
-
     @Given("User Logged in  to the  e-commerce site with username {string} and password {string}.")
-    public void userLoggedInToTheECommerceSiteWithUsernameAndPassword(String user_name,String Password) {
-       // System.out.println("printing");
+    public void userLoggedInToTheECommerceSiteWithUsernameAndPassword(String user_name, String Password) {
+        // System.out.println("printing");
         place_orderpage.goTo(cloader.getProperty("url1"));
         scenario.log("user is inside website");
-        place_orderpage.enter_logindetails(user_name,Password);
+        place_orderpage.enter_logindetails(user_name, Password);
         scenario.log("User enter username and password");
         place_orderpage.click_loginbtn();
         scenario.log("user click on login button.");
 
-
     }
-
 
     @When("User click on the any product add to cart button in the products list.")
     public void userClickOnTheAnyProductAddToCartButtonInTheProductsList() {
@@ -59,8 +55,8 @@ public class Place_order_stepdef {
     }
 
     @And("User enter {string} and {string} and {string}")
-    public void userEnterAndAnd(String fr_name,String Lname,String Pcode) {
-        place_orderpage.enter_checkout_details(fr_name,Lname,Pcode);
+    public void userEnterAndAnd(String fr_name, String Lname, String Pcode) {
+        place_orderpage.enter_checkout_details(fr_name, Lname, Pcode);
         scenario.log("user enter firstname and lastname and postal code");
     }
 
@@ -75,9 +71,9 @@ public class Place_order_stepdef {
     public void userClickOnFinishButton() {
         place_orderpage.click_finishbtn();
         scenario.log("user click on finish button");
-        String text=place_orderpage.getTextOnElement(By.className("complete-header"));
+        String text = place_orderpage.getTextOnElement(By.className("complete-header"));
         System.out.println(text);
-        Assert.assertEquals(text,"THANK YOU FOR YOUR ORDER");
+        Assert.assertEquals(text, "THANK YOU FOR YOUR ORDER");
     }
 
     @Then("User click on logout option.")

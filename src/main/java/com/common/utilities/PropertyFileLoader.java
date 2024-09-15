@@ -7,7 +7,8 @@ import java.util.Properties;
 public class PropertyFileLoader {
 
     public static Properties loadProperties(String propertiesFilePath) throws IOException {
-        FileInputStream fi = new FileInputStream(System.getProperty("user.dir")+"/src/test/resources/configuration/devconfig.properties");
+        FileInputStream fi = new FileInputStream(
+                System.getProperty("user.dir") + "/src/test/resources/configuration/devconfig.properties");
         Properties ps = new Properties();
         ps.load(fi);
         return ps;

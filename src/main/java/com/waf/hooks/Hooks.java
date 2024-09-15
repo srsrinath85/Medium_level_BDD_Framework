@@ -36,12 +36,18 @@ public class Hooks {
             // dbconfig.initilizeDb(); // Uncomment if needed
             context.cloader = new ConfigLoader();
             context.pfloader = new PropertyFileLoader();
+            String environment = context.cloader.getProperty("environment");
+            //String runMode = context.cloader.getProperty("runMode");
             VideoManger.startVideoRecording();
-            driver = DriverFactory.initialization(context.cloader.getProperty("browser"));
+            driver = DriverFactory.initialization();
             context.driver = driver;
+            context.place_orderpage = new place_orderpage(context.driver);
+            System.out.println("Place Order Page initialized: " + context.place_orderpage);
             context.scenario = scenario;
             // context.dbexecutor = new dbexecutor(); // Uncomment if needed
-            context.place_orderpage = new place_orderpage(context.driver);
+            logger.info("Running tests on: " + environment + " environment");
+            System.out.println(context.cloader.getProperty("remoteURL"));
+
             logger.info("Setup completed for scenario: " + scenario.getName());
         } catch (Exception e) {
             logger.error("Setup failed for scenario: " + scenario.getName(), e);
